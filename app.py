@@ -3,7 +3,7 @@ import os
 import json
 
 env_variables = os.environ
-#print(os.environ)
+
 DYNDNS_USERNAME=env_variables['DYNDNS_USERNAME']
 DYNDNS_PASSWORD=env_variables['DYNDNS_PASSWORD']
 DYNDNS_HOST=env_variables['DYNDNS_HOST']
